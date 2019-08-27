@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+ body{ 
+	background:  url(https://media.giphy.com/media/x4M27ecMjkQuoY9R8K/giphy.gif) no-repeat center center fixed; 
+	background-size: cover;
 }
+
+hr{
+	margin-bottom: 20px;
+}
+
+.title{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: -40px;
+}
+
+.title img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.title h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin-top: -132px;
+	margin-left: -172px;
+	padding-bottom: 100px;
+	letter-spacing: 0.2em;
+	color: #ffe862; 
+}
+
+button{
+	font: inherit;
+	cursor: pointer;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.botao {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    font-family: 'Press Start 2P', cursive;
+	border: 0;
+	padding: 0.5em 4em;
+	text-decoration: none;
+	color: #FFF;
+	background: black;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	border-radius: 0.5em;
+	box-shadow: 5px 5px 10px #ffe862;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.game-botao{
+	margin-top: 50px;
+}
+
+.botao:active {
+	box-shadow: 0 0 0 0 #930,
+				inset 4px 4px 4px #930;
+	transform: translate(6px, 6px);
+	text-decoration: none;
+}
+
+.botao-decoration{
+	text-decoration: none;
+}
+
+.secao-planet{
+	background: rgba(0,0,0, 0.5);
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	width: 400px;
+	margin: 100px auto 0 auto;
+	box-shadow: 5px 5px 10px #ffe862;
+}
+
+.secao-planet h2{
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.075em;
+	text-align: center;
+}
+
+.secao-planet p{
+	text-align: center;
+}
+
+.planets{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	padding: 20px 0;
+	text-align: center;
+}
+
