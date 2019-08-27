@@ -5,14 +5,14 @@
  
 <h2>Tecnologias utilizadas nesse desafio:</h2>
 
-<ol>
+<ul>
  <li>React JS;</li>
  <li>React-router-dom;</li>
  <li>HTML;</li>
 <li>CSS;</li>
  <li>JavaScript;</li>
 <li>Roteamento de páginas foi feito com React-router-dom.</li
-</ol>
+</ul>
 <br>
 <p>O desenvolvimento do projeto foi todo feito em React. A extrutura está toda pronta, faltando apenas o apontamento para a URL swapi.co, para pegar os dados dos planetas e exibi-los aleatoriamente, sempre que for clicado no botão Next.</p>
 
