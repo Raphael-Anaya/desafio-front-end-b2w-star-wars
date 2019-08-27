@@ -11,9 +11,9 @@
  <li>HTML;</li>
 <li>CSS;</li>
  <li>JavaScript;</li>
-<li>Roteamento de páginas foi feito com React-router-dom</li
+<li>Roteamento de páginas foi feito com React-router-dom.</li
 </ol>
-
+<br>
 <p>O desenvolvimento do projeto foi todo feito em React. A extrutura está toda pronta, faltando apenas o apontamento para a URL swapi.co, para pegar os dados dos planetas e exibi-los aleatoriamente, sempre que for clicado no botão Next.</p>
 
 <p>As informações sobre os planetas do Star Wars encontram-se na API:https://swapi.co/</p>
